@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.entete{
+
+
+    font-size:xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    height: auto;
+    width: 100%;
+}
+
+div.container-fluid {
+    
+    
+    width: 100%;
+  }
+  
+strong{
+    color :#22844e;
+    font-size: xx-large;
+}
+
+.conseil1{
+    float: left;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #22844e;
+    border-radius: 0px 0px 0px 0px;
+    background-image: url("../img/money-2724248_19201.jpg");
+}
+
+
+    
+.Conseil2{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #22844e;
+    border-radius: 0px 0px 0px 0px;
+    background-image: url("../img/conseil2.jpg");
+}
+.Conseil2 p {
+    font-size : x-large;
+    text-align: center;
+    line-height: 150%;   
+}
+.titre{
+    text-align: center;
+    line-height: 150%;
+    width: 100%;
+    margin-bottom: 8%;
+    font-size: xx-large;
+}
+.contenu{
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    font-size: x-large;
+    margin-bottom: 10%;
+}
+.titre{
+   float : left;
+
+}
+.Conseil3{
+    float: left;
+    font-size: x-large;
+    line-height: 150%;
+    width :100%;
+    text-align: center;
+
+    border-bottom: 1px solid #22844e;
+    border-radius: 0px 0px 0px 0px;
+    background-image: url("../img/conseil33.jpg");
+}   

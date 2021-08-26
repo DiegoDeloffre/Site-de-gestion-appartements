@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right top, #22844e, #1c8e4e, #16984e, #0fa24d, #08ac4b);
+  background-repeat: round;
+}
+
+div.container-fluid {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.container {
+  width: 75%;
+  min-height: 50%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  overflow-x:auto;
+  width: 100%;
+}
+
+table td, table th {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #22844e;
+  color: white;
+  border: 0;
+}

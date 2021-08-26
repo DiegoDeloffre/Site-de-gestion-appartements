@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right top, #22844e, #1c8e4e, #16984e, #0fa24d, #08ac4b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.container-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+div.container {
+    width: 50%;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+div.select {
+
+}
+
+div.select .element {
+    float: left;
+    padding: 5px 10px;
+    margin-right: 2px;
+    border-top: 1px solid #22844e;
+    border-right: 1px solid #22844e;
+    border-left: 1px solid #22844e;
+    border-radius: 5px 5px 0px 0px;
+}
+
+div.select .active {
+    background-color: #22844e;
+}
+
+div.login-form-div {
+    padding: 30px 0;
+}
+
+form.login-form {
+    -webkit-box-shadow: 0px 10px 43px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 43px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 43px 0px rgba(0,0,0,0.75);
+    padding: 0px 30px 30px 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    border: 1px solid #22844e;
+}
+
+form.login-form p.submit-button {
+    text-align: center;
+}
+
+form.login-form p {
+    text-align: center;
+    font-size: 30px;
+    color: #22844e;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+input[type=text], input[type=number], input[type=tel], input[type=date]{
+    text-align: center;
+    border: 1px solid #22844e;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px;
+    width: 80%;
+}
+
+input.nomprenom {
+  width: 36%;
+}
+
+select {
+  text-align: center;
+  border: 1px solid #22844e;
+  font-size: 20px;
+  height: 50px;
+  margin: 10px;
+  width: 40%;
+}
+
+p label {
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+input[type=submit] {
+    text-align: center;
+    border: 1px solid #22844e;
+    background-color: #22844e;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px 10px -30px 10px;
+    width: 80%;
+}
+
+a.link-inscription{
+    display: block;;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0em;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+.block {
+  width: 49%;
+  display: inline-block;
+}
+.spacer {
+  border-left: 2px solid #22844e;
+}

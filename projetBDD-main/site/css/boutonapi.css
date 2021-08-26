@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right top, #22844e, #1c8e4e, #16984e, #0fa24d, #08ac4b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+div.boutonVoir{
+	margin-top: -25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+button.voir{
+	text-align: center;
+    border: 1px solid white;
+    background-color: #22844e;
+    color: white;
+    font-size: 35px;
+    padding: 10% 10%;
+    letter-spacing: 0.1em;
+
+}
+
+button.voir:hover{
+	box-shadow: inset 0 0 0 10em white;
+	color: #22844e;
+	font-weight: bold;
+}
+
+
